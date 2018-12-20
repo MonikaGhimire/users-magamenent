@@ -1,4 +1,4 @@
-# User CRUD Frontend Application
+# User CRUD Frontend Application ✨
 
 It is a simple user management project which has the functionalities to create, update and delete user. This project was built while practicing Vanilla JavaScript and JQuery. The project was built using following technologies:
 - HTML5

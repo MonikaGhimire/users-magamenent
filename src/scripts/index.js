@@ -62,7 +62,6 @@ const handleAddUser = () => {
 $(document).ajaxComplete(() => {
     deleteUserHandler();
     updateUserHandler();
-    isUpdateAndDeleteHandlerSet = true;
 });
 
 const deleteUserHandler = () => {
