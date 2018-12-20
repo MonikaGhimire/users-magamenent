@@ -1,0 +1,27 @@
+.container {
+    margin-left: 10%;
+    margin-right: 10%;
+    .main-header {
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    #success-message {
+        visibility: hidden;
+    }
+    .title-header {
+        margin-bottom: 20px;
+    }
+    #add-button-container {
+        text-align: right;
+    }
+    #add-new-user {
+        margin-bottom: 20px;
+    }
+    #user-table {
+        text-align: center;
+        .update-user-action {
+            margin-right: 10px;
+        }
+    }
+}
