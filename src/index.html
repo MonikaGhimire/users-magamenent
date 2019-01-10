@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <title>User CRUD Frontend Application</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="main-header">User Management</h1>
+
+    <div id="notification-container"></div>
+
+    <div id="user-management">
+      <div class="row">
+        <h3 class="title-header col-sm-10">All Users</h3>
+        <div class="col-sm-2" id="add-button-container">
+          <button id="add-new-user" class="btn btn-success">Add User</button>
+        </div>
+      </div>
+
+      <table class="table" id="user-table">
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+      </table>
+    </div>
+
+    <div id="add-user">
+      <h3 class="title-header">Add new user</h3>
+      <div class="form-group" id="add-user-form">
+        Name: <input type="text" class="form-control" id="name" placeholder="provide name" /> <br />
+        Email: <input type="text" class="form-control" id="email" placeholder="provide email address" /><br /> <br />
+        <button id="add-user-button" class="btn btn-primary">Add User</button>
+      </div>
+    </div>
+
+    <div id="update-user">
+      <h3 class="title-header">Update user</h3>
+      <div class="form-group" id="update-user-form">
+        Id: <input type="text" class="form-control" id="update-user-id" disabled /> <br />
+        Name: <input type="text" class="form-control" id="update-name" /> <br />
+        Email: <input type="text" class="form-control" id="update-email" /><br /> <br />
+        <button id="update-user-button" class="btn btn-primary">Update User</button>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</body>
+
+</html>
